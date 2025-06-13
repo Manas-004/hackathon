@@ -1,0 +1,22 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 1,
+  "EndLine": 1,
+  "StartColumn": 1,
+  "EndColumn": 42,
+  "Match": "AZURE_STORAGE_KEY=Eby8vdM02xNOcqFlqLfF82==",
+  "Secret": "AIzaSyD4sfake12345",
+  "File": "secrets.txt",
+  "SymlinkFile": "",
+  "Commit": "6fb00f946f159a5e61f4b362b1ad132e7b6cb219",
+  "Entropy": 4.168296,
+  "Author": "Manas",
+  "Email": "Manas@qservicesit.com",
+  "Date": "2025-06-13T10:27:33Z",
+  "Message": "Initial commit",
+  "Tags": [],
+  "Fingerprint": "6fb00f946f159a5e61f4b362b1ad132e7b6cb219:secrets.txt:generic-api-key:1"
+ }
+]
